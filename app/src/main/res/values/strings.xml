@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">DecoderDream</string>
+<<<<<<< HEAD
     <string name="todo">TODO</string>
+=======
+    <string name="title_notifications">title_notifications</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="title_home">title_home</string>
+    <string name="dashboard_activity_placeholder">Dashboard Activity Placeholder</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+>>>>>>> c22ec8040c249e952c75ce57e9f7fda6509b991a
 </resources>
