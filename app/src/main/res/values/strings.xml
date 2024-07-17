@@ -1,15 +1,23 @@
-<resources>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
     <string name="app_name">DecoderDream</string>
     <string name="todo">TODO</string>
+<<<<<<< HEAD
     <string name="title_notifications">Notifications</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_home">Home</string>
+=======
+
+    <string name="title_notifications">Title Notifications</string>
+    <string name="title_dashboard">Title Dashboard</string>
+    <string name="title_home">Title Home</string>
+>>>>>>> a0ac269b77ded139dff71e3db4f634c641f0abdd
     <string name="dashboard_activity_placeholder">Dashboard Activity Placeholder</string>
     <string name="dashboard">Dashboard</string>
     <string name="home">Home</string>
     <string name="notifications">Notifications</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
+<<<<<<< HEAD
     <string name="Login">Login</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
@@ -48,4 +56,15 @@
     <string name="type_your_dream_here">Type your dream here</string>
     <string name="analyze">Analyze</string>
     <string name="dreamdecoder">DreamDecoder</string>
+=======
+    <string name="Dream_Pattern_Tracking">Dream Pattern Tracking</string>
+    <string name="dream_journal">Dream Journal</string>
+    <string name="pattern_recognition">Pattern Recognition</string>
+    <string name="dream_emotions">dream_emotions</string>
+    <string name="dream_date">dream_date</string>
+    <string name="dream_description">dream_description</string>
+    <string name="pattern_analysis_placeholder">pattern_analysis_placeholder</string>
+    <string name="save_dream">save_dream</string>
+    <string name="dream_symbols">dream_symbols</string>
+>>>>>>> a0ac269b77ded139dff71e3db4f634c641f0abdd
 </resources>

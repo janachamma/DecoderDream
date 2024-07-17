@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etDreamDescription" type="id" />
+    <item name="etDreamDate" type="id">etDreamDate</item>
+    <item name="etDreamEmotions" type="id" />
+    <item name="etDreamSymbols" type="id">etDreamSymbols</item>
+    <item name="btnSaveDream" type="id">btnSaveDream</item>
+    <item name="tvPatternRecognition" type="id">tvPatternRecognition</item>
+    <item name="tvPatternAnalysis" type="id">tvPatternAnalysis</item>
+    <item name="tvTitle" type="id">tvTitle</item>
+    <item name="tvDreamJournal" type="id">tvDreamJournal</item>
+</resources>
