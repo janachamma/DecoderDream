@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32sp"
                     android:layout_marginTop="32sp"
-                    android:text="@string/customize_your_settings_nhere"
+                    android:text="@string/ready_to_analyze_your_dreams"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -123,7 +123,7 @@
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent"
                                     app:layout_constraintVertical_bias="0.571"
-                                    app:srcCompat="@drawable/user"
+                                    app:srcCompat="@drawable/dreaminterpretation"
                                     tools:ignore="ContentDescription" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -132,7 +132,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="20sp"
-                                android:text="@string/your_profile"
+                                android:text="@string/dream_interpretation"
                                 android:textAlignment="center"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
@@ -169,7 +169,7 @@
                                     app:layout_constraintHorizontal_bias="0.571"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent"
-                                    app:srcCompat="@drawable/team" />
+                                    app:srcCompat="@drawable/journaling" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
                             <TextView
@@ -177,7 +177,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="20sp"
-                                android:text="@string/meet_our_team"
+                                android:text="@string/journaling"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
                         </LinearLayout>

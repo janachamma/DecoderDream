@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -16,7 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="20dp"
+            tools:ignore="UselessParent">
 
             <ImageView
                 android:layout_width="360dp"
@@ -30,11 +32,13 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
+                android:autofillHints="name"
                 android:background="@drawable/edittext_bkg"
-                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawableStart="@drawable/baseline_email_24"
                 android:drawablePadding="8dp"
-                android:hint="Email"
-                android:padding="8dp" />
+                android:hint="@string/Email"
+                android:padding="8dp"
+                tools:ignore="TextFields" />
 
             <EditText
                 android:id="@+id/login_password"
@@ -43,11 +47,12 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/edittext_bkg"
-                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawableStart="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
-                android:padding="8dp" />
+                android:padding="8dp"
+                tools:ignore="Autofill" />
 
 
             <Button
@@ -56,7 +61,7 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:text="Login"
+                android:text="@string/Login"
                 android:textSize="18sp" />
 
         </LinearLayout>
