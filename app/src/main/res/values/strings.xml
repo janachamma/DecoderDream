@@ -66,5 +66,14 @@
     <string name="pattern_analysis_placeholder">pattern_analysis_placeholder</string>
     <string name="save_dream">save_dream</string>
     <string name="dream_symbols">dream_symbols</string>
->>>>>>> a0ac269b77ded139dff71e3db4f634c641f0abdd
+    <string name="logout">Log Out\n</string>
+    <string name="profiles">Profile</string>
+    <string name="User">USER</string>
+    <string name="user_gmail_comm">user_gmail_com</string>
+    <string name="user_gmailcom">user@example.com</string>
+    <string name="welcome_to_dreamdecoder_explore_the_mysteries_of_your_dreams_and_uncover_their_hidden_meanings_your_journey_to_understanding_your_dreams_starts_here">welcome_to_dreamdecoder_explore_the_mysteries_of_your_dreams_and_uncover_their_hidden_meanings_your_journey_to_understanding_your_dreams_starts_here</string>
+    <string name="welcomeText">welcome to dreamdecoder explore the mysteries of your dreams and uncover their hidden meanings_your journey to understanding your dreams starts here</string>
+    <string name="Wlcometexxt">welcome to dreamdecoder explore the mysteries of your dreams and uncover their hidden meanings your journey to understanding your dreams starts here</string>
+    <string name="Settings">Settings</string>
+    >>>>>>> a0ac269b77ded139dff71e3db4f634c641f0abdd
 </resources>

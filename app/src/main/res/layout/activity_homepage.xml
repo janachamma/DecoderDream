@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/purple">
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="900sp"
+        android:overScrollMode="always"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:overScrollMode="always">
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,7 +27,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="250sp"
-                android:background="#1155CC"
+                android:background="#2E0854"
                 android:orientation="vertical">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -101,10 +102,10 @@
                         app:cardElevation="3sp">
 
                         <LinearLayout
+                            android:id="@+id/profileBtn"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:id="@+id/profileBtn">
+                            android:orientation="horizontal">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
                                 android:layout_width="60sp"
@@ -147,10 +148,10 @@
                         app:cardElevation="3sp">
 
                         <LinearLayout
+                            android:id="@+id/options_our_team"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:id="@+id/options_our_team">
+                            android:orientation="horizontal">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
                                 android:layout_width="60sp"
@@ -161,14 +162,14 @@
 
                                 <ImageView
                                     android:id="@+id/options_imageView_team"
-                                    android:layout_width="50sp"
-                                    android:layout_height="54sp"
+                                    android:layout_width="38dp"
+                                    android:layout_height="43dp"
                                     android:contentDescription="@string/ToDo"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintHorizontal_bias="0.571"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintVertical_bias="0.529"
                                     app:srcCompat="@drawable/journaling" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -246,7 +247,7 @@
                         android:layout_height="20sp"
                         android:layout_gravity="center"
                         android:layout_marginTop="8sp"
-                        app:srcCompat="@drawable/settings"
+                        app:srcCompat="@drawable/sett"
                         tools:ignore="ContentDescription" />
 
                     <TextView
