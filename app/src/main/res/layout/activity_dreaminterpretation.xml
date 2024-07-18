@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bacground"    >
+    android:background="@drawable/background">
 
     <!-- Header with logo and app name -->
-
-
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -33,8 +31,6 @@
             android:layout_marginStart="8dp"
             android:text="@string/app_name"
             android:textColor="#D8BFD8"
-
-
             android:textSize="34sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -85,5 +81,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dream_input" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/analyze_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,5 @@
 package com.example.decoderdream;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -21,6 +20,7 @@ public class DreamInterpretationActivity extends AppCompatActivity {
         // Initialize the views
         dreamInput = findViewById(R.id.dream_input);
         Button analyzeButton = findViewById(R.id.analyze_button);
+        Button backButton = findViewById(R.id.back_button);
 
         // Set a click listener on the analyze button
         analyzeButton.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +41,17 @@ public class DreamInterpretationActivity extends AppCompatActivity {
                 }
             }
         });
+
+        // Set a click listener on the back button
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the homepage
+                Intent intent = new Intent(DreamInterpretationActivity.this, HomepageActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
+
 

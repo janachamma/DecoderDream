@@ -12,7 +12,8 @@
         android:layout_width="395dp"
         android:layout_height="294dp"
         android:layout_marginTop="100dp"
-        android:src="@drawable/logoo" />
+        android:src="@drawable/logoo"
+        tools:ignore="ContentDescription" />
 
     <Button
         android:id="@+id/buttonLogin"
