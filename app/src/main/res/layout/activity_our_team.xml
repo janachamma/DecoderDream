@@ -6,16 +6,15 @@
     android:layout_height="match_parent"
     android:background="#800080" >
 
+
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/purple"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         android:overScrollMode="always">
 
         <LinearLayout
@@ -37,7 +36,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.032"
+                    app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/woman"
                     tools:ignore="ContentDescription" />
 
@@ -51,6 +50,19 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView"
                     tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/backbuttons"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.003"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.0" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -189,5 +201,7 @@
 
 
         </LinearLayout>
+
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

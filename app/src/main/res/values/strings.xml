@@ -1,40 +1,25 @@
 <resources xmlns:app="http://schemas.android.com/apk/res-auto">
     <string name="app_name">DecoderDream</string>
     <string name="todo">TODO</string>
-<<<<<<< HEAD
-    <string name="title_notifications">Notifications</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_home">Home</string>
-=======
-
     <string name="title_notifications">Title Notifications</string>
     <string name="title_dashboard">Title Dashboard</string>
     <string name="title_home">Title Home</string>
->>>>>>> a0ac269b77ded139dff71e3db4f634c641f0abdd
     <string name="dashboard_activity_placeholder">Dashboard Activity Placeholder</string>
     <string name="dashboard">Dashboard</string>
     <string name="home">Home</string>
     <string name="notifications">Notifications</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
-<<<<<<< HEAD
-    <string name="Login">Login</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
-    <string name="Password">Password</string>
     <string name="signup">Signup</string>
-    <string name="Email">Email</string>
-    <string name="TOdo">TODO</string>
     <string name="dreamdecoders">DreamDecoders</string>
-    <string name="customize_your_settings_nhere">Customize Your Settings \nHere</string>
+    <string name="customize_your_settings_here">Customize Your Settings \nHere</string>
     <string name="your_profile">Your Profile</string>
-    <string name="ToDo">TODO</string>
     <string name="meet_our_team">Meet Our Team</string>
-    <string name="Home">Home</string>
     <string name="settings">Settings</string>
-    <string name="TODO">TODO</string>
     <string name="adarwich_andrew_cmu_edu">adarwich@andrew.cmu.edu</string>
     <string name="cmpsduo">CMPSDUO</string>
     <string name="log_out">Log out</string>
@@ -44,7 +29,7 @@
     <string name="level">Level</string>
     <string name="user_gmail_com">user@gmail.com</string>
     <string name="welcome_to_dreamdecoders_team_where_your_dreams_are_interpreted">Welcome to DreamDecoders team, where your dreams are interpreted</string>
-    <string name="at_decoderdream_we_are_passionate_about_helping_you_uncover_the_mysteries_of_your_dreams_our_team_of_expert_dream_decoders_uses_advanced_ai_technology_to_analyze_and_interpret_your_dreams_providing_you_with_insightful_and_personalized_feedback_whether_you_re_curious_about_the_meaning_of_your_dreams_want_to_keep_a_dream_journal_or_are_seeking_tips_for_better_sleep_decoderdream_is_here_to_guide_you_on_your_journey_join_the_decoderdream_community_and_explore_the_fascinating_world_of_dreams_with_us">At DecoderDream, we are passionate about helping you uncover the mysteries of your dreams. Our team of expert dream decoders uses advanced AI technology to analyze and interpret your dreams, providing you with insightful and personalized feedback. Whether you\'re curious about the meaning of your dreams, want to keep a dream journal, or are seeking tips for better sleep, DecoderDream is here to guide you on your journey. Join the DecoderDream community and explore the fascinating world of dreams with us!</string>
+    <string name="at_decoderdream_we_are_passionate_about_helping_you_uncover_the_mysteries_of_your_dreams_our_team_of_expert_dream_decoders_uses_advanced_ai_technology_to_analyze_and_interpret_your_dreams_providing_you_with_insightful_and_personalized_feedback_whether_you_re_curious_about_the_meaning_of_your_dreams_want_to_keep_a_dream_journal_or_are_seeking_tips_for_better_sleep_decoderdream_is_here_to_guide_you_on_your_journey_join_the_decoderdream_community_and_explore_the_fascinating_world_of_dreams_with_us">At DecoderDream, we are passionate about helping you uncover the mysteries of your dreams. Our team of expert dream decoders uses advanced AI technology to analyze and interpret your dreams, providing you with insightful and personalized feedback. Whether you're curious about the meaning of your dreams, want to keep a dream journal, or are seeking tips for better sleep, DecoderDream is here to guide you on your journey. Join the DecoderDream community and explore the fascinating world of dreams with us!</string>
     <string name="is_a_full_stack_developer_with_extensive_experience_in_web_and_mobile_app_development_she_has_worked_with_java_python_c_c_flutter_html_css_git_react_and_node_js_he_played_a_crucial_role_in_developing_both_the_front_end_and_back_end_of_dreamdecoder_app">Is a full-stack developer with extensive experience in web and mobile app development. She has worked with Java, Python, C/C++, Flutter, HTML, CSS, Git, React, and Node.js. He played a crucial role in developing both the front-end and back-end of DreamDecoder app.</string>
     <string name="jana_chamma">Jana Chamma</string>
     <string name="aya_darwich">Aya Darwich</string>
@@ -56,33 +41,17 @@
     <string name="type_your_dream_here">Type your dream here</string>
     <string name="analyze">Analyze</string>
     <string name="dreamdecoder">DreamDecoder</string>
-=======
-    <string name="Dream_Pattern_Tracking">Dream Pattern Tracking</string>
+    <string name="dream_pattern_tracking">Dream Pattern Tracking</string>
     <string name="dream_journal">Dream Journal</string>
     <string name="pattern_recognition">Pattern Recognition</string>
-    <string name="dream_emotions">dream_emotions</string>
-    <string name="dream_date">dream_date</string>
-    <string name="dream_description">dream_description</string>
-    <string name="pattern_analysis_placeholder">pattern_analysis_placeholder</string>
-    <string name="save_dream">save_dream</string>
-    <string name="dream_symbols">dream_symbols</string>
-<<<<<<< HEAD
-    <string name="logout">Log Out\n</string>
-    <string name="profiles">Profile</string>
-    <string name="User">USER</string>
-    <string name="user_gmail_comm">user_gmail_com</string>
+    <string name="dream_emotions">Dream Emotions</string>
+    <string name="dream_date">Dream Date</string>
+    <string name="dream_description">Dream Description</string>
+    <string name="pattern_analysis_placeholder">Pattern Analysis Placeholder</string>
+    <string name="save_dream">Save Dream</string>
+    <string name="dream_symbols">Dream Symbols</string>
     <string name="user_gmailcom">user@example.com</string>
-    <string name="welcome_to_dreamdecoder_explore_the_mysteries_of_your_dreams_and_uncover_their_hidden_meanings_your_journey_to_understanding_your_dreams_starts_here">welcome_to_dreamdecoder_explore_the_mysteries_of_your_dreams_and_uncover_their_hidden_meanings_your_journey_to_understanding_your_dreams_starts_here</string>
-    <string name="welcomeText">welcome to dreamdecoder explore the mysteries of your dreams and uncover their hidden meanings_your journey to understanding your dreams starts here</string>
-    <string name="Wlcometexxt">welcome to dreamdecoder explore the mysteries of your dreams and uncover their hidden meanings your journey to understanding your dreams starts here</string>
-    <string name="Settings">Settings</string>
-=======
-    <string name="Settings">Settings</string>
-    <string name="Homme">home</string>
-    <string name="Homee">Home</string>
     <string name="welcome_to_dreamdecoder_explore_the_mysteries_of_your_dreams_and_uncover_their_hidden_meanings_your_journey_to_understanding_your_dreams_starts_here">Welcome to DreamDecoder! Explore the mysteries of your dreams and uncover their hidden meanings. Your journey to understanding your dreams starts here!</string>
     <string name="back">Back</string>
-    <string name="Back">Back</string>
->>>>>>> 91deee157769a163e6b5f2470d09e15dd895fefc
-    >>>>>>> a0ac269b77ded139dff71e3db4f634c641f0abdd
+    <string name="welcomeText">Welcome to DreamDecoder! Explore the mysteries of your dreams and uncover their hidden meanings. Your journey to understanding your dreams starts here!</string>
 </resources>

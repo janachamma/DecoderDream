@@ -1,6 +1,5 @@
 package com.example.decoderdream;
 
-<<<<<<< HEAD
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,14 +32,7 @@ public class OptionsActivity extends AppCompatActivity {
             }
         });
 
-        // Handle settings navigation
-        LinearLayout settingsButton = findViewById(R.id.goToMainScreen);
-        settingsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                navigateToSettings();
-            }
-        });
+
     }
 
     // Method to set up click listener for profile item
@@ -76,6 +68,7 @@ public class OptionsActivity extends AppCompatActivity {
         Intent intent = new Intent(OptionsActivity.this, TeamActivity.class);
         startActivity(intent);
     }
+
     // Method to navigate back to main screen
     private void navigateToMainScreen() {
         Intent intent = new Intent(OptionsActivity.this, MainActivity.class);
@@ -84,9 +77,5 @@ public class OptionsActivity extends AppCompatActivity {
         finish(); // Optional: Call finish() to close the current activity
     }
 
-
-=======
-public class OptionsActivity {
->>>>>>> 91deee157769a163e6b5f2470d09e15dd895fefc
 
 }
