@@ -1,5 +1,6 @@
 package com.example.decoderdream;
 
+<<<<<<< HEAD
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -84,5 +85,8 @@ public class OptionsActivity extends AppCompatActivity {
     }
 
 
+=======
+public class OptionsActivity {
+>>>>>>> 91deee157769a163e6b5f2470d09e15dd895fefc
 
 }
